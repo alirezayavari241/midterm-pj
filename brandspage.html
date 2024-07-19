@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <link href="./sliderpagr.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Vite App</title>
+<body class="box-border h-full bg-white " id="body">
+    <div id="main" class="bg-white">
+        <div id="pagetitle">
+        </div>
+        <div id="productsbybrand" class="flex">
+            <button id="btn"onclick='click()'>s</button>
+        </div>
+            <!-- Menu -->
+    <div id="menu" class="flex gap-x-8 align-middle justify-center border-t h-fit py-3 fixed bottom-0 bg-white w-full">
+        <div id="home" class="align-middle flex flex-col text-center">
+          <button class="material-symbols-outlined">home</button>
+          <p class="text-black border-b-2 border-black">Home</p>
+        </div>
+        <button id="cart0" class="align-middle flex flex-col text-center">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <p>Cart</p>
+        </button>
+        <button id="orders" class="align-middle flex flex-col text-center">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>Orders</p>
+        </button>
+        <button id="wallet" class="align-middle flex flex-col text-center">
+          <span class="material-symbols-outlined">account_balance_wallet</span>
+          <p>Wallet</p>
+        </button>
+        <button id="profile" class="align-middle flex flex-col text-center">
+          <span class="material-symbols-outlined">person</span>
+          <p>Profile</p>
+        </button>
+      </div>
+    </div>
+
+<script type="module" src="./brandspagescript.js"></script> 
+
+</body>
+</html>
